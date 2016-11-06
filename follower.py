@@ -9,7 +9,6 @@ string = None
 channel = None
 
 def init_follow(to_channel):
-    global started
     global active
     global channel
     channel = to_channel
