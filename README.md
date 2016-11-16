@@ -1,4 +1,4 @@
-# slack-log-follower-bot
+# slack-log-follower-bot ![](http://blog.jlstudio03.com/wp-content/uploads/2016/01/slackbot-50x50.jpg)
 
 ## Synopsis
 
