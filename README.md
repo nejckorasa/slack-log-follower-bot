@@ -1,4 +1,4 @@
-# slack-log-follower-bot ![](http://blog.jlstudio03.com/wp-content/uploads/2016/01/slackbot-50x50.jpg)
+# slack-log-follower-bot
 
 ## Synopsis
 
@@ -20,4 +20,3 @@ You can find out about how to get bot token and more info at [Slack API page](ht
 ## Installation
 
 Simply run **bot.py** after setting configuration as specefied above.
-
