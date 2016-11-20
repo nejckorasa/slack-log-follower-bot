@@ -13,7 +13,7 @@ AT_BOT = "<@" + BOT_ID + ">"
 slack_client = SlackClient(SLACK_BOT_TOKEN)
 
 start_responses = ["Sure...go get coffee or something", "On it!", "Got it!", "Yes sir!", "Will tell you when it starts"]
-stop_responses = ["As ypu wish", "Stopped...!", "Got it, stopped", "Done"]
+stop_responses = ["As you wish", "Stopped...!", "Got it, stopped", "Done"]
 
 
 def start_following(channel):
@@ -22,7 +22,7 @@ def start_following(channel):
 
 
 def stop_following():
-    follower.active = False
+    follower.stop_event.set()
 
 
 def handle_command(command, channel):
