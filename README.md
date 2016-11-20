@@ -32,8 +32,11 @@ In Slack conversation with your bot type:
 - "set *file_name* *following_text*"
   - Set a file to follow and text to wait for.
 - "start"
-  - Start following.
+  - Start following. It will notify you, when text occurs.
 - "follow *file_name* *following_text*"
-   - Set a file to follow and text to wait for **and** start following.
+  - Set a file to follow and text to wait for **and** start following.
 - "stop"
-   - Stop following.
+  - Stop following.
+   
+## See it in action
+![alt text](https://raw.githubusercontent.com/nejckorasa/slack-log-follower-bot/master/botInAction.PNG "See it in action")
